@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black; color: #222; font-family: 'Poppins', sans-serif; margin: 0;">
+
+    <header
+        style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <div style="font-weight: 600; font-size: 1.1rem; color: #333;">Bhavana Reddy</div>
+        <nav style="font-size: 0.9rem;">
+            <a href="resume.pdf" download style="margin-right: 20px; color: #333; text-decoration: none;">Resume</a>
+            <a href="#projects" style="margin-right: 20px; color: #333; text-decoration: none;">Projects</a>
+            <a href="#contact" style="color: #333; text-decoration: none;">Contact</a>
+        </nav>
+    </header>
+
+    <main style="max-width: 900px; margin: 40px auto; display: flex; align-items: center; gap: 40px;">
+
+        <div style="flex-shrink: 0;">
+            <img src="https://i.postimg.cc/Bv04Wf7k/photo-2.jpg" alt="Bhavana Reddy"
+                style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; filter: grayscale(100%);">
+        </div>
+
+        <div>
+            <h1 style="font-size: 3rem; margin: 0 0 10px 0; font-weight: 700;">Hello</h1>
+            <p style="font-size: 1rem; color: white; max-width: 400px; margin-bottom: 30px;">
+                A Bit About Me: I'm a Frontend Developer and a B.E. ISE student (2026). I enjoy creating beautiful and
+                functional web applications.
+            </p>
+            <div style="display: flex; gap: 20px;">
+                <a href="resume.pdf" download
+                    style="width: 70px; height: 70px; background: #f4b41a; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #222; font-weight: 600; text-decoration: none;">Resume</a>
+                <a href="#projects"
+                    style="width: 70px; height: 70px; background: #f44336; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; text-decoration: none;">Projects</a>
+                <a href="#contact"
+                    style="width: 70px; height: 70px; background: #4fc3f7; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #222; font-weight: 600; text-decoration: none;">Contact</a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Academic Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>QR Scan App</h3>
+                <p>Student info retrieval using Flask + JavaScript.</p>
+                <a href="https://github.com/bhavana2027/mini-project.git" target="_blank" class="btn small-btn">View on
+                    GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather Analysis</h3>
+                <p>Interactive weather prediction and visualization using APIs.</p>
+                <a href="https://github.com/bhavana2027/weather.git" target="_blank" class="btn small-btn">View on
+                    GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>Simple task manager with add, edit, and delete features.</p>
+                <a href="https://github.com/bhavana2027/to-do-list.git" target="_blank" class="btn small-btn">View on
+                    GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Daily Dairy</h3>
+                <p>Daily Dairy daily is a web-based application designed to manage milk delivery services efficiently.
+                    It helps admins (milk vendors/distributors) and customers (end-users) manage daily orders, billing,
+                    complaints, and notifications in one system.</p>
+                <a href="https://github.com/bhavana2027/daily-dairy.git" target="_blank" class="btn small-btn">View on
+                    GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>TaskFlow Smart AI ChatBot</h3>
+                <p>TaskFlow Smart AI ChatBot is an AI-powered personal assistant that helps users stay productive,
+                    manage tasks, and receive personalized productivity tips. It combines the power of to-do list
+                    management with intelligent chat-based guidance, making everyday planning both simple and
+                    motivating.</p>
+                <a href="https://github.com/bhavana2027/AI-powered-chatbot.git" target="_blank"
+                    class="btn small-btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>kidzo</h3>
+                <p>Kidzo is an interactive learning app designed to make education fun, engaging, and multilingual for
+                    kids. It helps children explore the world of colors, shapes, stories, and rhymes through a playful
+                    and voice-enabled experience.</p>
+                <a href="https://github.com/bhavana2027/kidzo.git" target="_blank" class="btn small-btn">View on
+                    GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact"
+        style="background: #fff; max-width: 900px; margin: 40px auto 20px auto; border-radius: 8px; padding: 20px 40px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); color: #222;">
+        <h2 style="font-weight: 700; font-size: 1.8rem; margin-bottom: 20px;">Connect With Me</h2>
+        <form id="contact-form" action="https://formspree.io/f/mrbadqnb" method="POST"
+            style="display: flex; flex-direction: column; gap: 15px;">
+            <input type="text" name="name" placeholder="Your Name" required
+                style="padding: 12px 15px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; font-family: 'Poppins', sans-serif;">
+            <input type="email" name="email" placeholder="Your Email" required
+                style="padding: 12px 15px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; font-family: 'Poppins', sans-serif;">
+            <textarea name="message" placeholder="Your Message" required
+                style="padding: 12px 15px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; font-family: 'Poppins', sans-serif; min-height: 100px; resize: vertical;"></textarea>
+            <button type="submit" class="btn"
+                style="background: #f44336; color: white; border: none; padding: 12px 20px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: background 0.3s ease;">Send
+                Message</button>
+        </form>
+        <div class="contact-links"
+            style="margin-top: 25px; text-align: center; display: flex; justify-content: space-around; color: #555;">
+            <p>Email: <a href="mailto:bhavana.ise.rymec@gmail.com"
+                    style="color: #4fc3f7; text-decoration: none;">bhavana.ise.rymec@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/bhavana2027" target="_blank"
+                    style="color: #4fc3f7; text-decoration: none;">github.com/bhavana2027</a></p>
+            <p>LinkedIn: <a href="http://linkedin.com/in/bhavana-reddy-11a44a322" target="_blank"
+                    style="color: #4fc3f7; text-decoration: none;">linkedin.com/in/bhavana-reddy</a></p>
+        </div>
+    </section>
+
+</body>
+
+</html>
